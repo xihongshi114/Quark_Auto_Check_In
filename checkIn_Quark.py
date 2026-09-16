@@ -5,6 +5,7 @@ may be separated by a newline or ``&&``. Both the legacy kps/sign/vcode format
 and the newer captured-URL format are supported.
 """
 
+
 from __future__ import annotations
 
 import os
