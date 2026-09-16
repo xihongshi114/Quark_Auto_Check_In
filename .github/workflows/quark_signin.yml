@@ -2,10 +2,7 @@ name: 夸克网盘每日签到
 
 on:
   schedule:
-    - cron: "40 10 * * *" # 日本时间 10:40
-      timezone: "Asia/Tokyo"
-    - cron: "40 13 * * *" # 日本时间 13:40，失败兜底
-      timezone: "Asia/Tokyo"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 
